@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A48F6B2D2193F14100467C38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B262193F14100467C38 /* AppDelegate.m */; };
+		A48F6B2E2193F14100467C38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48F6B272193F14100467C38 /* LaunchScreen.storyboard */; };
+		A48F6B2F2193F14100467C38 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A48F6B292193F14100467C38 /* Info.plist */; };
+		A48F6B302193F14100467C38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B2A2193F14100467C38 /* main.m */; };
+		A48F6B312193F14100467C38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B2C2193F14100467C38 /* ViewController.m */; };
+		A48F6B342193F1B100467C38 /* DDYOrientationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B332193F1B100467C38 /* DDYOrientationTool.m */; };
+		A48F6B372193F1D900467C38 /* AppDelegate+DDYOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B362193F1D900467C38 /* AppDelegate+DDYOrientation.m */; };
+		A48F6B3A2193F1F300467C38 /* UINavigationController+DDYOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B392193F1F300467C38 /* UINavigationController+DDYOrientation.m */; };
+		A48F6B3D2193F20C00467C38 /* UITabBarController+DDYOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B3C2193F20C00467C38 /* UITabBarController+DDYOrientation.m */; };
+		A48F6B592195398000467C38 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B412195398000467C38 /* MASCompositeConstraint.m */; };
+		A48F6B5A2195398000467C38 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B442195398000467C38 /* MASConstraint.m */; };
+		A48F6B5B2195398000467C38 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B462195398000467C38 /* MASConstraintMaker.m */; };
+		A48F6B5C2195398000467C38 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B482195398000467C38 /* MASLayoutConstraint.m */; };
+		A48F6B5D2195398000467C38 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B4C2195398000467C38 /* MASViewAttribute.m */; };
+		A48F6B5E2195398000467C38 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B4E2195398000467C38 /* MASViewConstraint.m */; };
+		A48F6B5F2195398000467C38 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B502195398000467C38 /* NSArray+MASAdditions.m */; };
+		A48F6B602195398000467C38 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B532195398000467C38 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		A48F6B612195398000467C38 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B552195398000467C38 /* View+MASAdditions.m */; };
+		A48F6B622195398000467C38 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B582195398000467C38 /* ViewController+MASAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A48F6B0E2193F0ED00467C38 /* DDYOrientationTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDYOrientationTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A48F6B252193F14100467C38 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A48F6B262193F14100467C38 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A48F6B282193F14100467C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A48F6B292193F14100467C38 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A48F6B2A2193F14100467C38 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A48F6B2B2193F14100467C38 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A48F6B2C2193F14100467C38 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A48F6B322193F1B100467C38 /* DDYOrientationTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDYOrientationTool.h; sourceTree = "<group>"; };
+		A48F6B332193F1B100467C38 /* DDYOrientationTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDYOrientationTool.m; sourceTree = "<group>"; };
+		A48F6B352193F1D900467C38 /* AppDelegate+DDYOrientation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+DDYOrientation.h"; sourceTree = "<group>"; };
+		A48F6B362193F1D900467C38 /* AppDelegate+DDYOrientation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+DDYOrientation.m"; sourceTree = "<group>"; };
+		A48F6B382193F1F300467C38 /* UINavigationController+DDYOrientation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+DDYOrientation.h"; sourceTree = "<group>"; };
+		A48F6B392193F1F300467C38 /* UINavigationController+DDYOrientation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+DDYOrientation.m"; sourceTree = "<group>"; };
+		A48F6B3B2193F20C00467C38 /* UITabBarController+DDYOrientation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+DDYOrientation.h"; sourceTree = "<group>"; };
+		A48F6B3C2193F20C00467C38 /* UITabBarController+DDYOrientation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+DDYOrientation.m"; sourceTree = "<group>"; };
+		A48F6B402195398000467C38 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		A48F6B412195398000467C38 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		A48F6B422195398000467C38 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		A48F6B432195398000467C38 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		A48F6B442195398000467C38 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		A48F6B452195398000467C38 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		A48F6B462195398000467C38 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		A48F6B472195398000467C38 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		A48F6B482195398000467C38 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		A48F6B492195398000467C38 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		A48F6B4A2195398000467C38 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		A48F6B4B2195398000467C38 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		A48F6B4C2195398000467C38 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		A48F6B4D2195398000467C38 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		A48F6B4E2195398000467C38 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		A48F6B4F2195398000467C38 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		A48F6B502195398000467C38 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		A48F6B512195398000467C38 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		A48F6B522195398000467C38 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		A48F6B532195398000467C38 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		A48F6B542195398000467C38 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		A48F6B552195398000467C38 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		A48F6B562195398000467C38 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		A48F6B572195398000467C38 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		A48F6B582195398000467C38 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A48F6B0B2193F0ED00467C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A48F6B052193F0ED00467C38 = {
+			isa = PBXGroup;
+			children = (
+				A48F6B3F2195398000467C38 /* Masonry */,
+				A48F6B242193F14100467C38 /* DDYOrientationToolExample */,
+				A48F6B102193F0ED00467C38 /* DDYOrientationTool */,
+				A48F6B0F2193F0ED00467C38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A48F6B0F2193F0ED00467C38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A48F6B0E2193F0ED00467C38 /* DDYOrientationTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A48F6B102193F0ED00467C38 /* DDYOrientationTool */ = {
+			isa = PBXGroup;
+			children = (
+				A48F6B322193F1B100467C38 /* DDYOrientationTool.h */,
+				A48F6B332193F1B100467C38 /* DDYOrientationTool.m */,
+				A48F6B352193F1D900467C38 /* AppDelegate+DDYOrientation.h */,
+				A48F6B362193F1D900467C38 /* AppDelegate+DDYOrientation.m */,
+				A48F6B382193F1F300467C38 /* UINavigationController+DDYOrientation.h */,
+				A48F6B392193F1F300467C38 /* UINavigationController+DDYOrientation.m */,
+				A48F6B3B2193F20C00467C38 /* UITabBarController+DDYOrientation.h */,
+				A48F6B3C2193F20C00467C38 /* UITabBarController+DDYOrientation.m */,
+			);
+			path = DDYOrientationTool;
+			sourceTree = "<group>";
+		};
+		A48F6B242193F14100467C38 /* DDYOrientationToolExample */ = {
+			isa = PBXGroup;
+			children = (
+				A48F6B252193F14100467C38 /* AppDelegate.h */,
+				A48F6B262193F14100467C38 /* AppDelegate.m */,
+				A48F6B272193F14100467C38 /* LaunchScreen.storyboard */,
+				A48F6B292193F14100467C38 /* Info.plist */,
+				A48F6B2A2193F14100467C38 /* main.m */,
+				A48F6B2B2193F14100467C38 /* ViewController.h */,
+				A48F6B2C2193F14100467C38 /* ViewController.m */,
+			);
+			path = DDYOrientationToolExample;
+			sourceTree = "<group>";
+		};
+		A48F6B3F2195398000467C38 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				A48F6B402195398000467C38 /* MASCompositeConstraint.h */,
+				A48F6B412195398000467C38 /* MASCompositeConstraint.m */,
+				A48F6B422195398000467C38 /* MASConstraint+Private.h */,
+				A48F6B432195398000467C38 /* MASConstraint.h */,
+				A48F6B442195398000467C38 /* MASConstraint.m */,
+				A48F6B452195398000467C38 /* MASConstraintMaker.h */,
+				A48F6B462195398000467C38 /* MASConstraintMaker.m */,
+				A48F6B472195398000467C38 /* MASLayoutConstraint.h */,
+				A48F6B482195398000467C38 /* MASLayoutConstraint.m */,
+				A48F6B492195398000467C38 /* Masonry.h */,
+				A48F6B4A2195398000467C38 /* MASUtilities.h */,
+				A48F6B4B2195398000467C38 /* MASViewAttribute.h */,
+				A48F6B4C2195398000467C38 /* MASViewAttribute.m */,
+				A48F6B4D2195398000467C38 /* MASViewConstraint.h */,
+				A48F6B4E2195398000467C38 /* MASViewConstraint.m */,
+				A48F6B4F2195398000467C38 /* NSArray+MASAdditions.h */,
+				A48F6B502195398000467C38 /* NSArray+MASAdditions.m */,
+				A48F6B512195398000467C38 /* NSArray+MASShorthandAdditions.h */,
+				A48F6B522195398000467C38 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				A48F6B532195398000467C38 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				A48F6B542195398000467C38 /* View+MASAdditions.h */,
+				A48F6B552195398000467C38 /* View+MASAdditions.m */,
+				A48F6B562195398000467C38 /* View+MASShorthandAdditions.h */,
+				A48F6B572195398000467C38 /* ViewController+MASAdditions.h */,
+				A48F6B582195398000467C38 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A48F6B0D2193F0ED00467C38 /* DDYOrientationTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A48F6B212193F0F600467C38 /* Build configuration list for PBXNativeTarget "DDYOrientationTool" */;
+			buildPhases = (
+				A48F6B0A2193F0ED00467C38 /* Sources */,
+				A48F6B0B2193F0ED00467C38 /* Frameworks */,
+				A48F6B0C2193F0ED00467C38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDYOrientationTool;
+			productName = DDYOrientationTool;
+			productReference = A48F6B0E2193F0ED00467C38 /* DDYOrientationTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A48F6B062193F0ED00467C38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = com.smartmesh;
+				TargetAttributes = {
+					A48F6B0D2193F0ED00467C38 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = A48F6B092193F0ED00467C38 /* Build configuration list for PBXProject "DDYOrientationTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A48F6B052193F0ED00467C38;
+			productRefGroup = A48F6B0F2193F0ED00467C38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A48F6B0D2193F0ED00467C38 /* DDYOrientationTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A48F6B0C2193F0ED00467C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48F6B2F2193F14100467C38 /* Info.plist in Resources */,
+				A48F6B2E2193F14100467C38 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A48F6B0A2193F0ED00467C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48F6B5F2195398000467C38 /* NSArray+MASAdditions.m in Sources */,
+				A48F6B5E2195398000467C38 /* MASViewConstraint.m in Sources */,
+				A48F6B3A2193F1F300467C38 /* UINavigationController+DDYOrientation.m in Sources */,
+				A48F6B5B2195398000467C38 /* MASConstraintMaker.m in Sources */,
+				A48F6B612195398000467C38 /* View+MASAdditions.m in Sources */,
+				A48F6B312193F14100467C38 /* ViewController.m in Sources */,
+				A48F6B5A2195398000467C38 /* MASConstraint.m in Sources */,
+				A48F6B372193F1D900467C38 /* AppDelegate+DDYOrientation.m in Sources */,
+				A48F6B5D2195398000467C38 /* MASViewAttribute.m in Sources */,
+				A48F6B602195398000467C38 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				A48F6B302193F14100467C38 /* main.m in Sources */,
+				A48F6B592195398000467C38 /* MASCompositeConstraint.m in Sources */,
+				A48F6B5C2195398000467C38 /* MASLayoutConstraint.m in Sources */,
+				A48F6B342193F1B100467C38 /* DDYOrientationTool.m in Sources */,
+				A48F6B3D2193F20C00467C38 /* UITabBarController+DDYOrientation.m in Sources */,
+				A48F6B622195398000467C38 /* ViewController+MASAdditions.m in Sources */,
+				A48F6B2D2193F14100467C38 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A48F6B272193F14100467C38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A48F6B282193F14100467C38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A48F6B1F2193F0F600467C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A48F6B202193F0F600467C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A48F6B222193F0F600467C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23JJ7VRKJT;
+				INFOPLIST_FILE = "$(SRCROOT)/DDYOrientationToolExample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartmesh.smart1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A48F6B232193F0F600467C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23JJ7VRKJT;
+				INFOPLIST_FILE = "$(SRCROOT)/DDYOrientationToolExample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartmesh.smart1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A48F6B092193F0ED00467C38 /* Build configuration list for PBXProject "DDYOrientationTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A48F6B1F2193F0F600467C38 /* Debug */,
+				A48F6B202193F0F600467C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A48F6B212193F0F600467C38 /* Build configuration list for PBXNativeTarget "DDYOrientationTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A48F6B222193F0F600467C38 /* Debug */,
+				A48F6B232193F0F600467C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A48F6B062193F0ED00467C38 /* Project object */;
+}
