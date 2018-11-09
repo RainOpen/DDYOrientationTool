@@ -1,6 +1,4 @@
 #import <Foundation/Foundation.h>
-#import "UINavigationController+DDYOrientation.h"
-#import "UITabBarController+DDYOrientation.h"
 
 typedef NS_ENUM(NSUInteger, DDYOrientationType) {
     DDYOrientationTypePortrait          = 1 << 0,   // 正竖屏
