@@ -1,6 +1,6 @@
 Pod::Spec.new do |ddyspec|
     ddyspec.name         = 'DDYOrientationTool'
-    ddyspec.version      = '1.0.0'
+    ddyspec.version      = '1.0.2'
     ddyspec.summary      = '一个屏幕方向切换管理工具'
     ddyspec.homepage     = 'https://github.com/RainOpen/DDYOrientationTool'
     ddyspec.license      = 'MIT'
