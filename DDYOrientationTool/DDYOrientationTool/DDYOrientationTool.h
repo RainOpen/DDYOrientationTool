@@ -1,4 +1,4 @@
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSUInteger, DDYOrientationType) {
     DDYOrientationTypePortrait          = 1 << 0,   // 正竖屏
