@@ -22,7 +22,6 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [self.window makeKeyAndVisible];
@@ -36,7 +35,6 @@
     NSLog(@"%s", __FUNCTION__);
 }
 
-
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     NSLog(@"%s", __FUNCTION__);
 }
@@ -45,11 +43,9 @@
     NSLog(@"%s", __FUNCTION__);
 }
 
-
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     NSLog(@"%s", __FUNCTION__);
 }
-
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     NSLog(@"%s", __FUNCTION__);

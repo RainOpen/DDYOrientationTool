@@ -13,9 +13,6 @@
 		A48F6B302193F14100467C38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B2A2193F14100467C38 /* main.m */; };
 		A48F6B312193F14100467C38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B2C2193F14100467C38 /* ViewController.m */; };
 		A48F6B342193F1B100467C38 /* DDYOrientationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B332193F1B100467C38 /* DDYOrientationTool.m */; };
-		A48F6B372193F1D900467C38 /* AppDelegate+DDYOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B362193F1D900467C38 /* AppDelegate+DDYOrientation.m */; };
-		A48F6B3A2193F1F300467C38 /* UINavigationController+DDYOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B392193F1F300467C38 /* UINavigationController+DDYOrientation.m */; };
-		A48F6B3D2193F20C00467C38 /* UITabBarController+DDYOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B3C2193F20C00467C38 /* UITabBarController+DDYOrientation.m */; };
 		A48F6B592195398000467C38 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B412195398000467C38 /* MASCompositeConstraint.m */; };
 		A48F6B5A2195398000467C38 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B442195398000467C38 /* MASConstraint.m */; };
 		A48F6B5B2195398000467C38 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B462195398000467C38 /* MASConstraintMaker.m */; };
@@ -26,6 +23,9 @@
 		A48F6B602195398000467C38 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B532195398000467C38 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		A48F6B612195398000467C38 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B552195398000467C38 /* View+MASAdditions.m */; };
 		A48F6B622195398000467C38 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B582195398000467C38 /* ViewController+MASAdditions.m */; };
+		A48F6B692195661B00467C38 /* UITabBarController+DDYOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B642195661A00467C38 /* UITabBarController+DDYOrientation.m */; };
+		A48F6B6A2195661B00467C38 /* AppDelegate+DDYOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B672195661A00467C38 /* AppDelegate+DDYOrientation.m */; };
+		A48F6B6B2195661B00467C38 /* UINavigationController+DDYOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F6B682195661B00467C38 /* UINavigationController+DDYOrientation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,12 +39,6 @@
 		A48F6B2C2193F14100467C38 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A48F6B322193F1B100467C38 /* DDYOrientationTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDYOrientationTool.h; sourceTree = "<group>"; };
 		A48F6B332193F1B100467C38 /* DDYOrientationTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDYOrientationTool.m; sourceTree = "<group>"; };
-		A48F6B352193F1D900467C38 /* AppDelegate+DDYOrientation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+DDYOrientation.h"; sourceTree = "<group>"; };
-		A48F6B362193F1D900467C38 /* AppDelegate+DDYOrientation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+DDYOrientation.m"; sourceTree = "<group>"; };
-		A48F6B382193F1F300467C38 /* UINavigationController+DDYOrientation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+DDYOrientation.h"; sourceTree = "<group>"; };
-		A48F6B392193F1F300467C38 /* UINavigationController+DDYOrientation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+DDYOrientation.m"; sourceTree = "<group>"; };
-		A48F6B3B2193F20C00467C38 /* UITabBarController+DDYOrientation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+DDYOrientation.h"; sourceTree = "<group>"; };
-		A48F6B3C2193F20C00467C38 /* UITabBarController+DDYOrientation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+DDYOrientation.m"; sourceTree = "<group>"; };
 		A48F6B402195398000467C38 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		A48F6B412195398000467C38 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
 		A48F6B422195398000467C38 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -70,6 +64,12 @@
 		A48F6B562195398000467C38 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		A48F6B572195398000467C38 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		A48F6B582195398000467C38 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		A48F6B632195661A00467C38 /* AppDelegate+DDYOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+DDYOrientation.h"; sourceTree = "<group>"; };
+		A48F6B642195661A00467C38 /* UITabBarController+DDYOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+DDYOrientation.m"; sourceTree = "<group>"; };
+		A48F6B652195661A00467C38 /* UITabBarController+DDYOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+DDYOrientation.h"; sourceTree = "<group>"; };
+		A48F6B662195661A00467C38 /* UINavigationController+DDYOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+DDYOrientation.h"; sourceTree = "<group>"; };
+		A48F6B672195661A00467C38 /* AppDelegate+DDYOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+DDYOrientation.m"; sourceTree = "<group>"; };
+		A48F6B682195661B00467C38 /* UINavigationController+DDYOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+DDYOrientation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,12 +106,6 @@
 			children = (
 				A48F6B322193F1B100467C38 /* DDYOrientationTool.h */,
 				A48F6B332193F1B100467C38 /* DDYOrientationTool.m */,
-				A48F6B352193F1D900467C38 /* AppDelegate+DDYOrientation.h */,
-				A48F6B362193F1D900467C38 /* AppDelegate+DDYOrientation.m */,
-				A48F6B382193F1F300467C38 /* UINavigationController+DDYOrientation.h */,
-				A48F6B392193F1F300467C38 /* UINavigationController+DDYOrientation.m */,
-				A48F6B3B2193F20C00467C38 /* UITabBarController+DDYOrientation.h */,
-				A48F6B3C2193F20C00467C38 /* UITabBarController+DDYOrientation.m */,
 			);
 			path = DDYOrientationTool;
 			sourceTree = "<group>";
@@ -119,6 +113,12 @@
 		A48F6B242193F14100467C38 /* DDYOrientationToolExample */ = {
 			isa = PBXGroup;
 			children = (
+				A48F6B632195661A00467C38 /* AppDelegate+DDYOrientation.h */,
+				A48F6B672195661A00467C38 /* AppDelegate+DDYOrientation.m */,
+				A48F6B662195661A00467C38 /* UINavigationController+DDYOrientation.h */,
+				A48F6B682195661B00467C38 /* UINavigationController+DDYOrientation.m */,
+				A48F6B652195661A00467C38 /* UITabBarController+DDYOrientation.h */,
+				A48F6B642195661A00467C38 /* UITabBarController+DDYOrientation.m */,
 				A48F6B252193F14100467C38 /* AppDelegate.h */,
 				A48F6B262193F14100467C38 /* AppDelegate.m */,
 				A48F6B272193F14100467C38 /* LaunchScreen.storyboard */,
@@ -233,19 +233,19 @@
 			files = (
 				A48F6B5F2195398000467C38 /* NSArray+MASAdditions.m in Sources */,
 				A48F6B5E2195398000467C38 /* MASViewConstraint.m in Sources */,
-				A48F6B3A2193F1F300467C38 /* UINavigationController+DDYOrientation.m in Sources */,
 				A48F6B5B2195398000467C38 /* MASConstraintMaker.m in Sources */,
 				A48F6B612195398000467C38 /* View+MASAdditions.m in Sources */,
 				A48F6B312193F14100467C38 /* ViewController.m in Sources */,
 				A48F6B5A2195398000467C38 /* MASConstraint.m in Sources */,
-				A48F6B372193F1D900467C38 /* AppDelegate+DDYOrientation.m in Sources */,
 				A48F6B5D2195398000467C38 /* MASViewAttribute.m in Sources */,
+				A48F6B6B2195661B00467C38 /* UINavigationController+DDYOrientation.m in Sources */,
 				A48F6B602195398000467C38 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				A48F6B302193F14100467C38 /* main.m in Sources */,
 				A48F6B592195398000467C38 /* MASCompositeConstraint.m in Sources */,
 				A48F6B5C2195398000467C38 /* MASLayoutConstraint.m in Sources */,
+				A48F6B6A2195661B00467C38 /* AppDelegate+DDYOrientation.m in Sources */,
 				A48F6B342193F1B100467C38 /* DDYOrientationTool.m in Sources */,
-				A48F6B3D2193F20C00467C38 /* UITabBarController+DDYOrientation.m in Sources */,
+				A48F6B692195661B00467C38 /* UITabBarController+DDYOrientation.m in Sources */,
 				A48F6B622195398000467C38 /* ViewController+MASAdditions.m in Sources */,
 				A48F6B2D2193F14100467C38 /* AppDelegate.m in Sources */,
 			);
