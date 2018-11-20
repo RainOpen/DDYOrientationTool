@@ -123,7 +123,7 @@ static int32_t currentAccelerometer = 0; // 当前检测次数
     return [DDYOrientationTool sharedInstance].allowOrientation;
 }
 
-+ (DDYOrientationType)getCurrentOrientation {
++ (DDYOrientationType)getCurrentOrientation {    
     return [DDYOrientationTool sharedInstance].currentOrientation;
 }
 

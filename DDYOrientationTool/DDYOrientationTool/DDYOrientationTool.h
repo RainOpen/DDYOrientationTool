@@ -1,6 +1,6 @@
 #import <UIKit/UIKit.h>
 
-typedef NS_ENUM(NSUInteger, DDYOrientationType) {
+typedef NS_OPTIONS(NSUInteger, DDYOrientationType) {
     DDYOrientationTypePortrait          = 1 << 0,   // 正竖屏
     DDYOrientationTypeLandscapeLeft     = 1 << 1,   // 左横屏
     DDYOrientationTypeLandscapeRight    = 1 << 2,   // 右横屏
